@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_about">
+    <fragment
+        android:id="@+id/nav_About"
+        android:name="com.example.my_bm_2024.ui.About.about"
+        android:label="About"
+        tools:layout="@layout/fragment_photofragment" />
+
+    <fragment
+        android:id="@+id/nav_Photo"
+        android:name="com.example.my_bm_2024.ui.Photo.photofragment"
+        android:label="AddPhoto"
+        tools:layout="@layout/fragment_photofragment" />
+
+    <fragment
+        android:id="@+id/nav_Label"
+        android:name="com.example.my_bm_2024.ui.Label.labelfragment"
+        android:label="AddLabel"
+        tools:layout="@layout/fragment_labelfragment" />
+
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.my_bm_2024.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_Logout"
+        android:name="com.example.my_bm_2024.ui.Logout.logout"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>
